@@ -23,7 +23,7 @@ CORS가 나를 막아선다👍, 브라우져에서 웹으로 직접 접근이 �
 그냥 그림을 만들어주는 api를 사용하기로 했다.<br>
 ```<img src="https://ghchart.rshah.org/Byeolnabi" alt="Byeolnabi's chart">```를 사용하면 된다.<br>
 🤔이 api는 어떻게 만든 것일까? CORS를 어떻게 뚫고간거지<br>
-🙄생각해보니 웹사이트를 만들 필요도 없었다. 이미지이기 때문에 그냥 마크다운에 넣어놔도 볼 수가 있구나... (~~모르는 척 넘어가기로 하자.~~)
+🙄생각해보니 웹사이트를 만들 필요도 없었다. 이미지이기 때문에 그냥 마크다운에 넣어놔도 볼 수가 있구나... (~~모르는 척 넘어가기로 하자.~~)<br>
 ![Byeol'sPic](https://ghchart.rshah.org/Byeolnabi)
 
 #### 3. 도전 참여자들의 잔디 출력하기
@@ -31,7 +31,7 @@ CORS가 나를 막아선다👍, 브라우져에서 웹으로 직접 접근이 �
 도전 참여자들은 파일로 관리를 하는 편이 좋을 것 같다. config같은 곳에 저장해두고 js를 이용해서 태그를 반복시키자.<br>
 **수행** :
 config에 저장되어 있는 멤버의 수만큼 반복되게 만들었다. 저번에 들었던 강의의 코드를 참고하였다<br>
-createElement("div")를 이용하여서 div안에 문자 리터럴을 innerHTML을 이용해서 덮어씌운 다음 appendChild(```object```)를 이용했다. appendChild는 문자 리터럴을 받을 수 없기 때문에 div를 만들어 리터럴 감싸기를 했다.
+createElement("div")를 이용하여서 div안에 문자 리터럴을 innerHTML을 이용해서 덮어씌운 다음 appendChild(```object```)를 이용했다. appendChild는 문자 리터럴을 받을 수 없기 때문에 div를 만들어 리터럴 감싸기를 했다.<br>
 ❗️script의 위치는 중요하다. 아직 로드되지 않은 html을 불러오는 행동을 하지 말자.
 
 **개선사항**<br>
