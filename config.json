@@ -1,3 +1,9 @@
 config = {
-    "member" : [{"name" : "김대규" , "githubUserName" : "Byeolnabi"}]
+    "member" : [
+        {"name" : "김대규" , "githubUserName" : "Byeolnabi"},
+        {"name" : "황도" , "githubUserName" : "vvalvvizal"},
+        {"name" : "신지" , "githubUserName" : "tlswl7479"},
+        {"name" : "행님" , "githubUserName" : "gihwan-dev"},
+        {"name" : "이름털린 친구들아 미안해" , "githubUserName" : "dummy"}
+    ]
 }
